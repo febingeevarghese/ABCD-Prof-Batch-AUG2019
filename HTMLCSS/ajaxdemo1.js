@@ -1,17 +1,18 @@
 $(document).ready( ()=>{
     $.ajax ( {
         type:"GET",
-        url:"http://10.0.9.129:8080/mydata.json",
+        url:"https://jsonplaceholder.typicode.com/users",
         success: (response)=>{
             console.log(response);
             var output="<table class='table'><tr><th>NAME</th> <th> AGE </th> <th> DOC</th> <th> College </th></tr>";
             
             for(var i in response){
                 var name=response[i].name;
-                var age=response[i].age;
-                var dob=response[i].Dob;
-                var college=response[i].College;
-            output+="<tr><td>"+name+" </td> <td>"+age+"</td> <td> "+dob+" </td> <td>"+college+"</td> </tr>";
+                var username=response[i].username;
+                var email=response[i].email;
+                var city=response[i].city;
+                var street=response[i].address.street
+            output+="<tr><td>"+name+" </td> <td>"+username+"</td> <td> "+email+" </td> <td>"+city+"</td> <td>"+street+"</tr>";
             
             }
             output+="</table>";
