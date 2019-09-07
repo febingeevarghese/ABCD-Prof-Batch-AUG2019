@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Rajesh",
+        "age":23,
+        "Dob":"21/03/1991",
+        "College": "ASIET"
+
+    },
+    {
+        "name":"Prakesh",
+        "age":20,
+        "Dob":"29/03/1991",
+        "College": "ASIET"
+
+    },
+    {
+        "name":"Suresh",
+        "age":27,
+        "Dob":"22/03/1991",
+        "College": "ASIET"
+
+    },
+    {
+        "name":"Mahesh",
+        "age":25,
+        "Dob":"26/03/1991",
+        "College": "ASIET"
+
+    },
+    {
+        "name":"Shivan",
+        "age":32,
+        "Dob":"28/03/1991",
+        "College": "ASIET"
+
+    },
+    {
+        "name":"Praveen",
+        "age":12,
+        "Dob":"28/03/1991",
+        "College": "ASIET"
+
+    }
+
+]
