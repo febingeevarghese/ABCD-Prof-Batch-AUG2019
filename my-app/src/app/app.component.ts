@@ -6,17 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
-  name ="Febin";
-  course="Full Stack Development"
-  active="false"
-  constructor(){
-    setTimeout(()=>{
-      this.active=true;
-    },10000);
-    
-
-
-  }
+  
 
 }
